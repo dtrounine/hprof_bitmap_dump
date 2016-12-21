@@ -25,9 +25,12 @@ Sometimes it crashes with ArrayIndexOutOfBoundsException, generating only part o
 # Screenshots
 
 Generated bitmaps have names containing instance IDs
+
 <img src="https://github.com/dtrounine/hprof_bitmap_dump/releases/download/v0.0.0/generated_bitmaps.png"/>
 
+
 List of bitmaps with instance IDs in MAT
+
 <img src="https://github.com/dtrounine/hprof_bitmap_dump/releases/download/v0.0.0/MAT_list_of_bitmaps.png"/>
    
    
