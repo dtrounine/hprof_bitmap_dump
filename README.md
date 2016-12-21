@@ -1,2 +1,3 @@
-# hprof_bitmap_dump
+# HPROF Bitmap Dump
+
 Extraxts bitmap from Java Heap Dump (hprof) and saves them in PNG files.
