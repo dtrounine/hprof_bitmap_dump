@@ -18,6 +18,16 @@ Pre-built JAR file (Java 8): https://github.com/dtrounine/hprof_bitmap_dump/rele
    
    It will generate PNG files in current directory, one for every android.graphics.Bitmap instance in the heap dump. The names of generated files contain IDs of Bitmap instances, so that you can find them by ID in Java Heap Dump viewer (like MAT).
    
- 
+# Known issues
+
+Sometimes it crashes with ArrayIndexOutOfBoundsException, generating only part of bitmaps.
+
+# Screenshots
+
+Generated bitmaps have names containing instance IDs
+<img src="https://github.com/dtrounine/hprof_bitmap_dump/releases/download/v0.0.0/generated_bitmaps.png"/>
+
+List of bitmaps with instance IDs in MAT
+<img src="https://github.com/dtrounine/hprof_bitmap_dump/releases/download/v0.0.0/MAT_list_of_bitmaps.png"/>
    
    
