@@ -1,3 +1,3 @@
 Manifest-Version: 1.0
-Main-Class: github.dtrounine.hprof_bitmap_pdump.Main
+Main-Class: github.dtrounine.hprof_bitmap_dump.Main
 

@@ -1,4 +1,4 @@
-package github.dtrounine.hprof_bitmap_pdump;
+package github.dtrounine.hprof_bitmap_dump;
 
 import com.squareup.haha.perflib.*;
 import com.squareup.haha.perflib.io.HprofBuffer;
