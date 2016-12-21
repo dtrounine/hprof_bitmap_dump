@@ -12,8 +12,12 @@ Pre-built JAR file (Java 8): https://github.com/dtrounine/hprof_bitmap_dump/rele
 
 3. Run from command line: 
    
+```
    java -jar hprof_bitmap_dump.jar <converted_hprof_file>
+```   
    
-   It will generate PNG files in current directory, one for every android.graphics.Bitmap instance in the heap dump.
+   It will generate PNG files in current directory, one for every android.graphics.Bitmap instance in the heap dump. The names of generated files contain IDs of Bitmap instances, so that you can find them by ID in Java Heap Dump viewer (like MAT).
+   
+ 
    
    
